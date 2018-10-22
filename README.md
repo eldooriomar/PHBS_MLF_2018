@@ -16,7 +16,7 @@ The motivation behind our research is the understanding of specific conditions t
 
 **Goal**: 
 
-We will execute a classification based on U.K. road accidents ranging from 2012 to 2014 using the methodologies covered in class (Ordered Logistic Regression, KNN, Decision tree). Our classification will specify the impact of certain features on car wreckage. 
+We will execute a classification based on U.K. road accidents ranging from 2012 to 2014 using the methodologies covered in class (Ordered Logistic Regression or Multinomial Logistic Regression, KNN, Decision tree). Our classification will specify the impact of certain features on car wreckage. 
 
 **Data Source**: 
 
