@@ -35,25 +35,28 @@ https://www.kaggle.com/daveianhickey/2000-16-traffic-flow-england-scotland-wales
 
 _Data preprocessing_:
 
-1-Dropping columns containing variables not mentioned above 
+*  Dropping columns containing variables not mentioned above 
 
-2-Dealing with missing data - deleting observations that are labeled with NaNs
+*  Dealing with missing data - deleting observations that are labeled with NaNs
 
-3-Converting some independent variables:
+*  Converting some independent variables:
 
-*  Day of the week - creating a binary variable by assigning a value of “0” for Weekdays (Monday- Thursday) and “1” for Weekends (Friday- Sunday) 
-*  Time - creating a binary variable that has a value “0” for Day (6:01-18:00), “1” for Night (18:01-6:00)
-*  Weather conditions- combining existing labels into just 4: fine, raining, snowing, fog 
-Further data processing will be done for each algorithm separately, including dividing into training, test and validation datasets.
+     *  Day of the week - creating a binary variable by assigning a value of “0” for Weekdays (Monday- Thursday) and “1” for Weekends (Friday- Sunday) 
+     *  Time - creating a binary variable that has a value “0” for Day (6:01-18:00), “1” for Night (18:01-6:00)
+     *  Weather conditions- combining existing labels into 4: fine, raining, snowing, fog 
+     
+*  Further data processing may be done if the algorithm requires it
+
+*  Division into training, test and validation datasets
 
 _Prediction_:
 
 Accuracy of each of the following methods will be checked to choose the best classifier for reaching our goal. To implement methods mentioned below scikit-learn will be used.
 
-1) Ordered logistic regression (in case of meeting an assumption of proportional odds) or multinominal logistic regression 
-additionally an analysis of an impact of statistically important independent variables will be conducted 
+*  Ordered Logistic Regression (in case of meeting an assumption of proportional odds) or Multinominal Logistic Regression 
+     *  An analysis of the impact of statistically important independent variables will be conducted 
 
-2) Decision tree/ Random forest
+*  Decision tree/ Random forest
 
-3) KNN 
+*  KNN 
 
