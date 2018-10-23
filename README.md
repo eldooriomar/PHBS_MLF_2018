@@ -1,12 +1,12 @@
 # GITHUB_ID-PHBS_MLF_-2018
 
-Arianna MISERICORDIA: ariannamisericordia
+Arianna MISERICORDIA: ariannamisericordia 1802010234
 
-Ewa GERUS: ewagerus
+Ewa GERUS: ewagerus  1802010260
 
-Noam PELEG : Noam-Peleg
+Noam PELEG : Noam-Peleg 1802010275
 
-Lillah BENARD : Lillahbenard
+Lillah BENARD : Lillahbenard 1802010264
 
 # _Prediction of automotive accident severity_ 
 
