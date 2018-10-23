@@ -16,7 +16,7 @@ The motivation behind our research is the understanding of specific conditions t
 
 **Goal**: 
 
-We will execute a classification based on U.K. road accidents ranging from 2012 to 2014 using the methodologies covered in class (Ordered Logistic Regression or Multinomial Logistic Regression, KNN, Decision tree). Our classification will specify the impact of certain features on car wreckage. 
+We will execute a classification based on U.K. road accidents ranging from 2014 to 2016 using the methodologies covered in class (Ordered Logistic Regression or Multinomial Logistic Regression, KNN, Decision tree). Our classification will specify the impact of certain features on car wreckage. 
 
 **Data Source**: 
 
@@ -24,10 +24,6 @@ The data we collected comes from the U.K. government who amassed traffic data ba
 The data that we will be analyzing has been composed of the U.K. road accidents from 2014 to 2016. It describes the severity (1 = fatal, 2 = serious, 3 = slight) of the accident according to the day of the week (weekend, working days), time (morning, afternoon, night), weather condition (fine, fog, raining, snowing), number of vehicles involved, number of casualties, speed limit and road type.
 
 **Dataset Source**:
-
-http://data.dft.gov.uk/gb-traffic-matrix/all-traffic-data-metadata.pdf 
-
-http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/ 
 
 https://data.gov.uk/dataset/6efe5505-941f-45bf-b576-4c1e09b579a1/road-traffic-accidents
 
