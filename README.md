@@ -23,7 +23,7 @@ We will execute a classification based on U.K. road accidents ranging from 2014 
 The data we collected comes from the U.K. government who amassed traffic data based on police reports. 
 The data that we will be analyzing has been composed of the U.K. road accidents from 2014 to 2016. 
 
-Accidents are recorded with these features:
+Accidents are recorded according to these features:
 *  Severity (1 = fatal, 2 = serious, 3 = slight), 
 *  Day of the week (weekend, working days), 
 *  Time (day , night), 
