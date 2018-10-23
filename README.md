@@ -21,7 +21,22 @@ We will execute a classification based on U.K. road accidents ranging from 2014 
 **Data Source**: 
 
 The data we collected comes from the U.K. government who amassed traffic data based on police reports. 
-The data that we will be analyzing has been composed of the U.K. road accidents from 2014 to 2016. It describes the severity (1 = fatal, 2 = serious, 3 = slight) of the accident according to the day of the week (weekend, working days), time (day , night), weather condition (fine, fog, raining, snowing), number of vehicles involved, number of casualties, speed limit and road type.
+The data that we will be analyzing has been composed of the U.K. road accidents from 2014 to 2016. 
+
+Accidents are recorded with these features:
+*  Severity (1 = fatal, 2 = serious, 3 = slight), 
+*  Day of the week (weekend, working days), 
+*  Time (day , night), 
+*  Accident date,
+*  Weather condition (fine, fog, raining, snowing), 
+*  Lighting conditions,
+*  Number of vehicles involved, 
+*  Speed limit,
+*  Road type,
+*  Casualty class,
+*  Sex of casualty,
+*  Age of casualty,
+*  Type of vehicle.
 
 **Dataset Source**:
 
