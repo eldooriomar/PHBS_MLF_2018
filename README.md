@@ -35,11 +35,7 @@ _Data preprocessing_:
 
 *  Dealing with missing data - deleting observations that are labeled with NaNs
 
-*  Converting some independent variables:
-
-     *  Day of the week - creating a binary variable by assigning a value of “0” for Weekdays (Monday- Thursday) and “1” for Weekends (Friday- Sunday) 
-     *  Time - creating a binary variable that has a value “0” for Day (6:01-18:00), “1” for Night (18:01-6:00)
-     *  Weather conditions- combining existing labels into 4: fine, raining, snowing, fog 
+*  Feature selection- separately for each algorithm 
      
 *  Further data processing may be done if the algorithm requires it
 
