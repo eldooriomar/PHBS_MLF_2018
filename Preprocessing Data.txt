@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import os
 import csv
-import csv
 df1 = pd.read_csv('2014 excel.csv')
 df2 = pd.read_csv('2015 excel.csv')
 df3 = pd.read_csv('2016 excel.csv')
@@ -23,3 +22,36 @@ list4=['Snowing without high winds','Snowing with high winds']
 list5=['Raining without high winds','Raining with high winds']
 list6=['Other','Unknown','Darkness: street lighting unknown'] 
 list7=['Fog or mist ? if hazard']
+
+def b(row):
+    if row['Day']in list1:
+        val='Weekday'
+    elif row['Day']in list2:
+        val='Weekend'
+    return val
+result['Day'] = result.apply(b, axis=1)
+
+def g(row):
+    if row['Weather Conditions']in list3:
+        val='Fine'
+    elif row['Weather Conditions']in list4:
+        val='Snowing'
+    elif row['Weather Conditions']in list5:
+        val='Raining'
+    elif row['Weather Conditions']in list6:
+        val='Other'
+    elif row['Weather Conditions']in list7:
+        val='Fog'    
+    return val
+result['Weather Conditions'] = result.apply(g, axis=1)
+
+#Time listing#
+def c(row):
+    if 600< row['Time (24hr)'] <= 1801:
+        val='Day-time'
+    else:
+        val='Night-time'
+    return val
+result['Time (24hr)'] = result.apply(c, axis=1)
+  
+print(result)
