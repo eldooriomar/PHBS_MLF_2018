@@ -1,0 +1,25 @@
+import pandas as pd
+import numpy as np
+import os
+import csv
+import csv
+df1 = pd.read_csv('2014 excel.csv')
+df2 = pd.read_csv('2015 excel.csv')
+df3 = pd.read_csv('2016 excel.csv')
+
+#merging files#
+frames = [df1, df2, df3]
+result = pd.concat(frames, axis=0)
+
+#deleting columns#
+result= result.drop(['Grid Ref: Northing','Grid Ref: Easting','Reference Number','Expr1','Accident Date'],axis=1)
+
+
+#listing objects#
+list1=['Monday','Tuesday','Wednesday','Thursday']
+list2=['Friday','Saturday','Sunday']
+list3=['Fine without high winds','Fine with high winds']
+list4=['Snowing without high winds','Snowing with high winds']
+list5=['Raining without high winds','Raining with high winds']
+list6=['Other','Unknown','Darkness: street lighting unknown'] 
+list7=['Fog or mist ? if hazard']
