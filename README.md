@@ -63,7 +63,8 @@ _Data preprocessing_:
 *  Dropping columns containing the same information after dummies (Casualty sex, Day and Time) 
     
 *  Further data processing may be done if the algorithm requires it
-[image ml.pptx](https://github.com/Lillahbenard/PHBS_MLF_2018/files/2552889/image.ml.pptx)
+![image ml](https://user-images.githubusercontent.com/43052624/48060888-3446e300-e1f8-11e8-8052-3dda4bf24363.jpg)
+
 
 *  Division into training, test and validation datasets
 
