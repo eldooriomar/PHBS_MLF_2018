@@ -70,4 +70,5 @@ Accuracy of each of the following methods will be checked to choose the best cla
 *  KNN 
 
 **Conclusion**: 
+
 ![summary](https://user-images.githubusercontent.com/43052624/48114312-8724a700-e299-11e8-86e6-2bc53ce08bbf.png)
