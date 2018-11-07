@@ -64,6 +64,7 @@ Accuracy of each of the following methods will be checked to choose the best cla
      *  An analysis of the impact of statistically important independent variables will be conducted 
 
 *  Decision tree/ Random forest
+![decision tree](https://user-images.githubusercontent.com/43052624/48113500-116b0c00-e296-11e8-8a0f-52ce61ae41cc.png)
 
 *  KNN 
 
