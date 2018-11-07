@@ -62,6 +62,7 @@ Accuracy of each of the following methods will be checked to choose the best cla
 
 *  Ordered Logistic Regression (in case of meeting an assumption of proportional odds) or Multinominal Logistic Regression 
      *  An analysis of the impact of statistically important independent variables will be conducted 
+![logistic regression](https://user-images.githubusercontent.com/43052624/48114206-1ed5c580-e299-11e8-80b8-1e1cc922a2a0.png)
 
 *  Decision tree/ Random forest
 ![decision tree](https://user-images.githubusercontent.com/43052624/48113500-116b0c00-e296-11e8-8a0f-52ce61ae41cc.png)
