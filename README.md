@@ -46,25 +46,13 @@ https://data.gov.uk/dataset/6efe5505-941f-45bf-b576-4c1e09b579a1/road-traffic-ac
 
 _Data preprocessing_:
 
-*  Merging data sets
-
-*  Dropping columns containing references variables 
+*  Dropping columns containing variables not mentioned above 
 
 *  Dealing with missing data - deleting observations that are labeled with NaNs
 
-*  Listing 
-     * Time: Night -time or Day-time
-     * Vehicle: Bus, Goods vehicle, Car, Motocycle, Other
-     * Day: Weekday or Weekend
-     * Weather: Fine, Snowing, raining or Fog 
-
-*  Creating dummies 
-
-*  Dropping columns containing the same information after dummies (Casualty sex, Day and Time) 
-    
+*  Feature selection- separately for each algorithm 
+     
 *  Further data processing may be done if the algorithm requires it
-![image ml](https://user-images.githubusercontent.com/43052624/48060888-3446e300-e1f8-11e8-8052-3dda4bf24363.jpg)
-
 
 *  Division into training, test and validation datasets
 
@@ -76,6 +64,6 @@ Accuracy of each of the following methods will be checked to choose the best cla
      *  An analysis of the impact of statistically important independent variables will be conducted 
 
 *  Decision tree/ Random forest
-![decision tree](https://user-images.githubusercontent.com/43052624/48060272-86870480-e1f6-11e8-8c53-a41312257d8f.jpg)
+
 *  KNN 
 
