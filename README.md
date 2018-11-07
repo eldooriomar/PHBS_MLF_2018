@@ -16,7 +16,7 @@ The motivation behind our research is the understanding of specific conditions t
 
 **Goal**: 
 
-We will execute a classification based on U.K. road accidents ranging from 2014 to 2016 using the methodologies covered in class (Ordered Logistic Regression or Multinomial Logistic Regression, KNN, Decision tree). Our classification will specify the impact of certain features on car wreckage. 
+We executed a classification based on U.K. road accidents ranging from 2014 to 2016 using the methodologies covered in class (Ordered Logistic Regression or Multinomial Logistic Regression, KNN, Decision tree). Our classification specify the impact of certain features on car wreckage. 
 
 **Data Source**: 
 
@@ -46,23 +46,31 @@ https://data.gov.uk/dataset/6efe5505-941f-45bf-b576-4c1e09b579a1/road-traffic-ac
 
 _Data preprocessing_:
 
-*  Dropping columns containing variables not mentioned above 
+*  Merging data sets
+
+*  Dropping columns containing variables not mentionned above
 
 *  Dealing with missing data - deleting observations that are labeled with NaNs
 
+*  Listing variables:
+   *  Time (24hr): Day-time, Night-time
+   *  Weather conditions: Fine, Snowing, Raining, Fog, Other
+   *  Type of Vehicle: Car, Bus, Goods vehicles, Motorcycle, Other
+   *  Day: Weekday, Weekend
+   *  Casualty class: Passenger, Pedestrian, Driver
+
+*  Creating dummies and dropping variables containing the same information ( Sex of casualty_Female, Day_Weekday , Time (24hr)_ Day-time)
+
 *  Feature selection- separately for each algorithm 
-     
-*  Further data processing may be done if the algorithm requires it
-
-*  Division into training, test and validation datasets
-
+    
+* Re-sampling
+  *  Slight: 6739, Serious: 957, Fatal: 48
+  *  Serious: 957, Slight: 957, Fatal: 48
+  *  Slight: 957, Fatal: 957, Serious: 957
+  
 _Prediction_:
 
-Accuracy of each of the following methods will be checked to choose the best classifier for reaching our goal. To implement methods mentioned below scikit-learn will be used.
-
-*  Ordered Logistic Regression (in case of meeting an assumption of proportional odds) or Multinominal Logistic Regression 
-     *  An analysis of the impact of statistically important independent variables will be conducted 
-![logistic regression](https://user-images.githubusercontent.com/43052624/48114206-1ed5c580-e299-11e8-80b8-1e1cc922a2a0.png)
+Accuracy of each of the following methods were checked to choose the best classifier for reaching our goal. To implement methods mentioned below scikit-learn were used.
 
 *  Decision tree
 
@@ -73,6 +81,10 @@ Kfold best accuracy of 74.16% with a decision tree depth equal to 6.
 The 3 most important features in decision tree model are: Casualty Class_Pedestrian, Road Surface_Dry, Road Surface_Wet or Damp.
 
 *  KNN 
+
+*  Ordered Logistic Regression (in case of meeting an assumption of proportional odds) or Multinominal Logistic Regression 
+Analysis of the impact of statistically important independent variables:
+![logistic regression](https://user-images.githubusercontent.com/43052624/48114206-1ed5c580-e299-11e8-80b8-1e1cc922a2a0.png)
 
 **Conclusion**: 
 
