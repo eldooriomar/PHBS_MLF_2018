@@ -77,6 +77,8 @@ https://data.gov.uk/dataset/6efe5505-941f-45bf-b576-4c1e09b579a1/road-traffic-ac
 
  * Standardization
  
+ ![pca](https://user-images.githubusercontent.com/43052624/48190945-ef00ed80-e37e-11e8-9d02-4dfffc4967c1.png)
+ 
  * PCA
 
 We use the first 12 components because they make up approximately 90% of the variance.
