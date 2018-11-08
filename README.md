@@ -20,27 +20,27 @@ We executed a classification based on U.K. road accidents ranging from 2014 to 2
 
 **DATA SOURCE**: 
 
-The data we collected comes from the U.K. government who amassed traffic data based on police reports. 
-The data that we will be analyzing has been composed of the U.K. road accidents from 2014 to 2016. 
+The data collected comes from the U.K. government who amassed traffic data based on police reports. 
+The analysis of data executed here is composed of the U.K. road accidents from 2014 to 2016. 
 
 Accidents are recorded according to these features:
-*  Reference Number,
-*  Grid Ref: Easting,
-*  Grid Ref: Northing,
-*  Expr1,
-*  Severity, 
-*  Day of the week, 
-*  Time (24hr), 
-*  1st Road Class,
-*  Road surface,
-*  Accident date,
-*  Weather condition, 
-*  Lighting conditions,
-*  Number of vehicles, 
-*  Casualty class,
-*  Sex of casualty,
-*  Age of casualty,
-*  Type of vehicle.
+*  Reference Number
+*  Grid Ref: Easting
+*  Grid Ref: Northing
+*  Expr1
+*  Severity 
+*  Day of the week 
+*  Time (24hr)
+*  1st Road Class
+*  Road surface
+*  Accident date
+*  Weather condition 
+*  Lighting conditions
+*  Number of vehicles 
+*  Casualty class
+*  Sex of casualty
+*  Age of casualty
+*  Type of vehicle
 
 **DATASET SOURCE**:
 
@@ -54,7 +54,7 @@ https://data.gov.uk/dataset/6efe5505-941f-45bf-b576-4c1e09b579a1/road-traffic-ac
 
 *  Merging datasets
 
-*  Dropping columns containing references ( Reference number, Grid Ref: Easting, Grid Ref: Northing) and correlated variables (Lighting conditions, Accident Date).
+*  Dropping columns containing references (Reference number, Grid Ref: Easting, Grid Ref: Northing) and correlated variables (Lighting conditions, Accident Date).
 
 *  Dealing with missing data by deleting observations that are labeled with NaNs.
 
@@ -65,9 +65,9 @@ https://data.gov.uk/dataset/6efe5505-941f-45bf-b576-4c1e09b579a1/road-traffic-ac
    *  Day: Weekday, Weekend
    *  Casualty class: Passenger, Pedestrian, Driver
 
-*  Creating dummies and dropping variables containing the same information (Sex of casualty_Female, Day_Weekday , Time (24hr)_ Day-time)
+*  Creating dummies and dropping variables containing the same information (Sex of casualty_Female, Day_Weekday, Time (24hr)_Day-time)
     
-* Re-sampling our unbalanced data
+* Resampling unbalanced data
 
   *  Slight: 6739, Serious: 957, Fatal: 48
      * Undersampling from slight to serious
@@ -85,17 +85,17 @@ https://data.gov.uk/dataset/6efe5505-941f-45bf-b576-4c1e09b579a1/road-traffic-ac
 
  ![pca](https://user-images.githubusercontent.com/43052624/48190945-ef00ed80-e37e-11e8-9d02-4dfffc4967c1.png)
 
-We use the first 12 components because they make up approximately 90% of the variance.
+We utilize the first 12 components as they make up approximately 90% of the variance.
 
 **_III. Prediction_**:
 
-Accuracy of each of the following methods were checked to choose the best classifier for reaching our goal. To implement methods mentioned below, scikit-learn and Keras were used. 
+Accuracy of each of the following methods were examined to choose the best classifier for reaching our goal. To implement the methods mentioned below, scikit-learn and Keras were used. 
 
-To avoid overfitting, we used Kfold cross validation method with 10 splits. 
+To avoid overfitting, we used K-fold cross-validation method with ten splits. 
 
-*  **Decision tree**
+*  **Decision Tree**
 
-Our graph shows the depth that returns the best accuracy based on the number of features that we have on the dataset.
+Our graph shows the depth that returns the best accuracy based on the number of features that we have in the dataset.
 
 ![kfold decision tree](https://user-images.githubusercontent.com/43052624/48170888-87be4b80-e334-11e8-8302-7c8437f7903f.png)
 
@@ -117,7 +117,7 @@ The mean accuracy is equal to 72.41% (standard deviation 2.46%).
 
 Using standarized data after PCA.
 
-Our graph shows the number of neighbors that returns the best accuracy based on the number of features that we have on the dataset.
+Our graph shows the number of neighbors that returns the best accuracy based on the number of features that we have in the dataset.
 
 ![kfold knn](https://user-images.githubusercontent.com/43052624/48171438-dcfb5c80-e336-11e8-82e7-7f259129e643.png)
 
@@ -135,7 +135,7 @@ Drop reference variable
 
 Plotting correlation matrix
 
-Drop road surface because highly correlated to weather conditions
+Drop 'Road Surface' due to its high correlation with 'Weather Condition'
 
 The mean accuracy is equal to 53.54% (standard deviation 2.67%)
 
