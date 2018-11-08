@@ -107,15 +107,15 @@ The three most important features in the decision tree model are: Casualty Class
 
 *  **Neural Network**
 
-Using standarized data after PCA.
+Using preprocessed standarized data followed by PCA.
 
 Two hidden layers each containing 24 nodes.
 
-The mean accuracy is equal to 72.41% (standard deviation 2.46%).
+The mean accuracy is equal to 72.66% (standard deviation 2.95%).
 
 *  **KNN**
 
-Using standarized data after PCA.
+Using preprocessed standarized data followed by PCA.
 
 Our graph shows the number of neighbors that returns the best accuracy based on the number of features that we have in the dataset.
 
@@ -135,9 +135,9 @@ Drop reference variable
 
 Plotting correlation matrix
 
-Drop 'Road Surface' due to its high correlation with 'Weather Condition'
+Drop 'Weather Condition' due to its high correlation with 'Road Surface'
 
-The mean accuracy is equal to 53.54% (standard deviation 2.67%)
+The mean accuracy is equal to 54.09% (standard deviation 2.67%)
 
 ![logistic regression](https://user-images.githubusercontent.com/43052624/48114206-1ed5c580-e299-11e8-80b8-1e1cc922a2a0.png)
 
