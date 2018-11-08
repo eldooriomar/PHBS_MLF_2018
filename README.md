@@ -142,7 +142,7 @@ _without PCA_
 
 **CONCLUSION**: 
 
-![summary](https://user-images.githubusercontent.com/43052624/48114312-8724a700-e299-11e8-86e6-2bc53ce08bbf.png)
+![image](https://user-images.githubusercontent.com/43052624/48206732-03a6ab00-e3aa-11e8-9420-5f2c3eac39e6.png)
 
 The best model is the decision tree with a mean accuracy of 73.95%. 
 
