@@ -96,10 +96,13 @@ Kfold best mean accuracy of 71.37% (standard deviation 2.77%) for n_neighbors=5.
 
 *  Ordered Logistic Regression
 
-Analysis of the impact of statistically important independent variables:
+_With PCA_
 
-   *  With PCA: The mean accuracy is equal to 53.12% (standard deviation 2.32%)
-   *  Without PCA: The mean accuracy is equal to 53.54% (standard deviation 2.67%)
+The mean accuracy is equal to 53.12% (standard deviation 2.32%)
+
+_Without PCA_
+
+The mean accuracy is equal to 53.54% (standard deviation 2.67%)
 
 ![logistic regression](https://user-images.githubusercontent.com/43052624/48114206-1ed5c580-e299-11e8-80b8-1e1cc922a2a0.png)
 
