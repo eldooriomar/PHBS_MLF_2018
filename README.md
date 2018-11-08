@@ -137,7 +137,8 @@ _without PCA_
 
 - The mean accuracy is equal to 54.09% (standard deviation 2.67%).
 
-![logistic regression](https://user-images.githubusercontent.com/43052624/48114206-1ed5c580-e299-11e8-80b8-1e1cc922a2a0.png)
+![logistic regression](https://user-images.githubusercontent.com/43052624/48206324-1cfb2780-e3a9-11e8-802f-514365f7be4f.png)
+
 
 **CONCLUSION**: 
 
