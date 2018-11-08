@@ -123,9 +123,9 @@ Our graph shows the number of neighbors that returns the best accuracy based on 
 
 K-fold best mean accuracy is 71.37% (standard deviation 2.77%) for number of neighbors equal to five.
 
-*  **Ordered Logistic Regression**
+*  **Logistic Regression**
 
-_With PCA_
+_using PCA_
 
 The mean accuracy is equal to 53.12% (standard deviation 2.32%)
 
