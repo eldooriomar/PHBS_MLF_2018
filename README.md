@@ -69,9 +69,9 @@ https://data.gov.uk/dataset/6efe5505-941f-45bf-b576-4c1e09b579a1/road-traffic-ac
     
 * Re-sampling our unbalanced data
   *  Slight: 6739, Serious: 957, Fatal: 48
-     Undersampling from slight to serious
+     * Undersampling from slight to serious
   *  Slight: 957, Serious: 957, Fatal: 48
-     Oversampling from fatal to serious
+     * Oversampling from fatal to serious
   *  Slight: 957, Serious: 957, Fatal: 957
   
 **_II. Standardization and PCA_**:
@@ -89,6 +89,8 @@ We use the first 12 components because they make up approximately 90% of the var
 Accuracy of each of the following methods were checked to choose the best classifier for reaching our goal. To implement methods mentioned below, scikit-learn and Keras were used.
 
 *  **Decision tree**
+
+Our graph shows the depth that returns the best accuracy based on the number of features that we have on the dataset.
 
 ![kfold decision tree](https://user-images.githubusercontent.com/43052624/48170888-87be4b80-e334-11e8-8302-7c8437f7903f.png)
 
