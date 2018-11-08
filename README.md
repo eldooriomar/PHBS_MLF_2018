@@ -135,7 +135,7 @@ _without PCA_
 
 - Dropping 'Weather Condition' variable due to its high correlation with 'Road Surface'.
 
-- The mean accuracy is equal to 54.09% (standard deviation 2.67%).
+- The mean accuracy is equal to 54.09% (standard deviation 3.03%).
 
 ![logistic regression](https://user-images.githubusercontent.com/43052624/48206324-1cfb2780-e3a9-11e8-802f-514365f7be4f.png)
 
