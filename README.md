@@ -69,12 +69,21 @@ https://data.gov.uk/dataset/6efe5505-941f-45bf-b576-4c1e09b579a1/road-traffic-ac
     
 * Re-sampling our unbalanced data
   *  Slight: 6739, Serious: 957, Fatal: 48
+    *  Undersampling from slight to serious
   *  Slight: 957, Serious: 957, Fatal: 48
+    *  Oversampling from fatal to serious
   *  Slight: 957, Serious: 957, Fatal: 957
-  
-**_II. Prediction_**:
+**_II. Standardization and PCA_**:
 
-Accuracy of each of the following methods were checked to choose the best classifier for reaching our goal. To implement methods mentioned below, scikit-learn was used.
+ * Standardization
+ 
+ * PCA
+
+We use the first 12 components because they make up approximately 90% of the variance.
+
+**_III. Prediction_**:
+
+Accuracy of each of the following methods were checked to choose the best classifier for reaching our goal. To implement methods mentioned below, scikit-learn and Keras were used.
 
 *  **Decision tree**
 
@@ -87,6 +96,7 @@ K-fold best mean accuracy is 73.95% for a decision tree depth equal to 6.
 The three most important features in the decision tree model are: Casualty Class_Pedestrian, Road Surface_Dry, Road Surface_Wet or Damp.
 
 *  **Neural Network**
+
 
 The mean accuracy is equal to 72.41% (standard deviation 2.46%).
 
