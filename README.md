@@ -99,7 +99,7 @@ To avoid overfitting, we used K-fold cross-validation method with ten splits.
 
 ![kfold decision tree](https://user-images.githubusercontent.com/43052624/48170888-87be4b80-e334-11e8-8302-7c8437f7903f.png)
 
--K-fold best mean accuracy is 73.95% (standard deviation 2.64%) for a decision tree depth equal to six.
+- K-fold best mean accuracy is 73.95% (standard deviation 2.64%) for a decision tree depth equal to six.
 
 ![decision tree](https://user-images.githubusercontent.com/43052624/48113500-116b0c00-e296-11e8-8a0f-52ce61ae41cc.png)
 
