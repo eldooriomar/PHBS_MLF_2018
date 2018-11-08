@@ -74,6 +74,8 @@ Accuracy of each of the following methods were checked to choose the best classi
 
 *  Decision tree
 
+![kfold decision tree](https://user-images.githubusercontent.com/43052624/48170888-87be4b80-e334-11e8-8302-7c8437f7903f.png)
+
 Kfold best accuracy of 74.16% with a decision tree depth equal to 6.
 
 ![decision tree](https://user-images.githubusercontent.com/43052624/48113500-116b0c00-e296-11e8-8a0f-52ce61ae41cc.png)
