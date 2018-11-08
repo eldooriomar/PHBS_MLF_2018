@@ -95,47 +95,47 @@ To avoid overfitting, we used K-fold cross-validation method with ten splits.
 
 *  **Decision Tree**
 
-The graph below shows the depth that returns the best accuracy based on the number of features that we have in the dataset.
+- The graph below shows the depth that returns the best accuracy based on the number of features that we have in the dataset.
 
 ![kfold decision tree](https://user-images.githubusercontent.com/43052624/48170888-87be4b80-e334-11e8-8302-7c8437f7903f.png)
 
-  * K-fold best mean accuracy is 73.95% (standard deviation 2.64%) for a decision tree depth equal to six.
+-K-fold best mean accuracy is 73.95% (standard deviation 2.64%) for a decision tree depth equal to six.
 
 ![decision tree](https://user-images.githubusercontent.com/43052624/48113500-116b0c00-e296-11e8-8a0f-52ce61ae41cc.png)
 
-  *The three most important features in the decision tree model are: Casualty Class_Pedestrian, Road Surface_Dry, Road Surface_Wet or Damp.
+- The three most important features in the decision tree model are: Casualty Class_Pedestrian, Road Surface_Dry, Road Surface_Wet or Damp.
 
 *  **Neural Network**
 
-  * Using preprocessed standarized data followed by PCA.
+- Using preprocessed standarized data followed by PCA.
 
-  * Two hidden layers each containing 24 nodes.
+- Two hidden layers each containing 24 nodes.
   
-  * The mean accuracy is equal to 72.66% (standard deviation 2.95%).
+- The mean accuracy is equal to 72.66% (standard deviation 2.95%).
 
 *  **KNN**
 
-  * Using preprocessed standarized data followed by PCA.
+- Using preprocessed standarized data followed by PCA.
 
-  * The graph below shows the number of neighbors that returns the best accuracy based on the number of features that we have in the dataset.
+- The graph below shows the number of neighbors that returns the best accuracy based on the number of features that we have in the dataset.
 
 ![kfold knn](https://user-images.githubusercontent.com/43052624/48171438-dcfb5c80-e336-11e8-82e7-7f259129e643.png)
 
-  * K-fold best mean accuracy is 71.37% (standard deviation 2.77%) for number of neighbors equal to five.
+- K-fold best mean accuracy is 71.37% (standard deviation 2.77%) for number of neighbors equal to five.
 
 *  **Logistic Regression**
 
 _using PCA_
 
-  * The mean accuracy is equal to 53.12% (standard deviation 2.32%)
+- The mean accuracy is equal to 53.12% (standard deviation 2.32%)
 
 _without PCA_
 
-  * Dropping reference variables.
+- Dropping reference variables.
 
-  * Dropping 'Weather Condition' variable due to its high correlation with 'Road Surface'.
+- Dropping 'Weather Condition' variable due to its high correlation with 'Road Surface'.
 
-  * The mean accuracy is equal to 54.09% (standard deviation 2.67%).
+- The mean accuracy is equal to 54.09% (standard deviation 2.67%).
 
 ![logistic regression](https://user-images.githubusercontent.com/43052624/48114206-1ed5c580-e299-11e8-80b8-1e1cc922a2a0.png)
 
