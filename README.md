@@ -65,7 +65,7 @@ https://data.gov.uk/dataset/6efe5505-941f-45bf-b576-4c1e09b579a1/road-traffic-ac
    *  Day: Weekday, Weekend
    *  Casualty class: Passenger, Pedestrian, Driver
 
-*  Creating dummies and dropping variables containing the same information (Sex of casualty_Female, Day_Weekday, Time (24hr)_Day-time)
+*  Creating dummies out of categorical variables and dropping variables containing the same information (Sex of casualty_Female, Day_Weekday, Time (24hr)_Day-time)
     
 * Resampling unbalanced data
 
