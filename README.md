@@ -63,9 +63,9 @@ _Data preprocessing_:
 
 *  Feature selection- separately for each algorithm 
     
-* Re-sampling
+* Re-sampling our unbalanced data
   *  Slight: 6739, Serious: 957, Fatal: 48
-  *  Serious: 957, Slight: 957, Fatal: 48
+  *  Slight: 957, Serious: 957, Fatal: 48
   *  Slight: 957, Fatal: 957, Serious: 957
   
 _Prediction_:
@@ -84,6 +84,7 @@ The 3 most important features in decision tree model are: Casualty Class_Pedestr
 
 *  Ordered Logistic Regression (in case of meeting an assumption of proportional odds) or Multinominal Logistic Regression 
 Analysis of the impact of statistically important independent variables:
+
 ![logistic regression](https://user-images.githubusercontent.com/43052624/48114206-1ed5c580-e299-11e8-80b8-1e1cc922a2a0.png)
 
 **Conclusion**: 
