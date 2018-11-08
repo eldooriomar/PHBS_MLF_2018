@@ -93,7 +93,7 @@ Accuracy of each of the following methods were examined to choose the best class
 
 To avoid overfitting, we used K-fold cross-validation method with ten splits. 
 
-*  **Decision Tree**
+**Decision Tree**
 
 - The graph below shows the depth that returns the best accuracy based on the number of features that we have in the dataset.
 
@@ -105,7 +105,7 @@ To avoid overfitting, we used K-fold cross-validation method with ten splits.
 
 - The three most important features in the decision tree model are: Casualty Class_Pedestrian, Road Surface_Dry, Road Surface_Wet or Damp.
 
-*  **Neural Network**
+**Neural Network**
 
 - Using preprocessed standarized data followed by PCA.
 
@@ -113,7 +113,7 @@ To avoid overfitting, we used K-fold cross-validation method with ten splits.
   
 - The mean accuracy is equal to 72.66% (standard deviation 2.95%).
 
-*  **KNN**
+**KNN**
 
 - Using preprocessed standarized data followed by PCA.
 
@@ -123,7 +123,7 @@ To avoid overfitting, we used K-fold cross-validation method with ten splits.
 
 - K-fold best mean accuracy is 71.37% (standard deviation 2.77%) for number of neighbors equal to five.
 
-*  **Logistic Regression**
+**Logistic Regression**
 
 _using PCA_
 
