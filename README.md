@@ -24,15 +24,19 @@ The data we collected comes from the U.K. government who amassed traffic data ba
 The data that we will be analyzing has been composed of the U.K. road accidents from 2014 to 2016. 
 
 Accidents are recorded according to these features:
-*  Severity (1 = fatal, 2 = serious, 3 = slight), 
-*  Day of the week (weekend, working days), 
-*  Time (day , night), 
+*  Reference Number,
+*  Grid Ref:Easting,
+*  Grid Ref: Northing,
+*  Expr1,
+*  Severity, 
+*  Day of the week, 
+*  Time (24hr), 
+*  1st Road Class,
+*  Road surface,
 *  Accident date,
-*  Weather condition (fine, fog, raining, snowing), 
+*  Weather condition, 
 *  Lighting conditions,
 *  Number of vehicles involved, 
-*  Speed limit,
-*  Road type,
 *  Casualty class,
 *  Sex of casualty,
 *  Age of casualty,
@@ -48,7 +52,7 @@ _Data preprocessing_:
 
 *  Merging data sets
 
-*  Dropping columns containing variables not mentionned above
+*  Dropping columns containing  references and correlated variables.
 
 *  Dealing with missing data - deleting observations that are labeled with NaNs
 
@@ -60,8 +64,6 @@ _Data preprocessing_:
    *  Casualty class: Passenger, Pedestrian, Driver
 
 *  Creating dummies and dropping variables containing the same information ( Sex of casualty_Female, Day_Weekday , Time (24hr)_ Day-time)
-
-*  Feature selection- separately for each algorithm 
     
 * Re-sampling our unbalanced data
   *  Slight: 6739, Serious: 957, Fatal: 48
@@ -76,11 +78,13 @@ Accuracy of each of the following methods were checked to choose the best classi
 
 ![kfold decision tree](https://user-images.githubusercontent.com/43052624/48170888-87be4b80-e334-11e8-8302-7c8437f7903f.png)
 
-Kfold best accuracy of 74.16% with a decision tree depth equal to 6.
+Kfold best mean accuracy of 73.95% for a decision tree depth equal to 6.
 
 ![decision tree](https://user-images.githubusercontent.com/43052624/48113500-116b0c00-e296-11e8-8a0f-52ce61ae41cc.png)
 
 The 3 most important features in decision tree model are: Casualty Class_Pedestrian, Road Surface_Dry, Road Surface_Wet or Damp.
+
+*  Neural network
 
 *  KNN 
 
@@ -92,3 +96,5 @@ Analysis of the impact of statistically important independent variables:
 **Conclusion**: 
 
 ![summary](https://user-images.githubusercontent.com/43052624/48114312-8724a700-e299-11e8-86e6-2bc53ce08bbf.png)
+
+In conclusion, the best model is the decision tree with a mean accuracy of 73.95%. The 3 most important features in decision tree model are: Casualty Class_Pedestrian, Road Surface_Dry, Road Surface_Wet or Damp.
