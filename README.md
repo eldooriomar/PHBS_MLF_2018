@@ -10,15 +10,15 @@
 
 # _Prediction of automotive accident severity_ 
 
-**Motivation**:
+**MOTIVATION**:
 
 The motivation behind our research is the understanding of specific conditions that affect the severity of an automotive accident. The purpose of this project is to highlight impactful variables while operating a vehicle in order to improve accident prevention.
 
-**Goal**: 
+**GOAL**: 
 
 We executed a classification based on U.K. road accidents ranging from 2014 to 2016 using the methodologies covered in class (Ordered Logistic Regression or Multinomial Logistic Regression, KNN, Decision tree). Our classification specify the impact of certain features on car wreckage. 
 
-**Data Source**: 
+**DATA SOURCE**: 
 
 The data we collected comes from the U.K. government who amassed traffic data based on police reports. 
 The data that we will be analyzing has been composed of the U.K. road accidents from 2014 to 2016. 
@@ -42,13 +42,13 @@ Accidents are recorded according to these features:
 *  Age of casualty,
 *  Type of vehicle.
 
-**Dataset Source**:
+**DATASET SOURCE**:
 
 https://data.gov.uk/dataset/6efe5505-941f-45bf-b576-4c1e09b579a1/road-traffic-accidents
 
-**Methodology**: 
+**METHODOLOGY**: 
 
-_Data preprocessing_:
+**_Data preprocessing_**:
 
 *  Merging data sets
 
@@ -70,7 +70,7 @@ _Data preprocessing_:
   *  Slight: 957, Serious: 957, Fatal: 48
   *  Slight: 957, Fatal: 957, Serious: 957
   
-_Prediction_:
+**_Prediction_**:
 
 Accuracy of each of the following methods were checked to choose the best classifier for reaching our goal. To implement methods mentioned below scikit-learn were used.
 
