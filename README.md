@@ -86,6 +86,8 @@ The 3 most important features in decision tree model are: Casualty Class_Pedestr
 
 *  Neural network
 
+The mean accuracy is equal to 72.41% (standard deviation 2.46%.
+
 *  KNN 
 
 ![kfold knn](https://user-images.githubusercontent.com/43052624/48171438-dcfb5c80-e336-11e8-82e7-7f259129e643.png)
@@ -109,4 +111,5 @@ The mean accuracy is equal to 53.54% (standard deviation 2.67%)
 
 ![summary](https://user-images.githubusercontent.com/43052624/48114312-8724a700-e299-11e8-86e6-2bc53ce08bbf.png)
 
-In conclusion, the best model is the decision tree with a mean accuracy of 73.95%. The 3 most important features in decision tree model are: Casualty Class_Pedestrian, Road Surface_Dry, Road Surface_Wet or Damp.
+The best model is the decision tree with a mean accuracy of 73.95%. 
+We can conclude that the 3 most important features that affect the severity of an automotive accident are: Casualty Class_Pedestrian, Road Surface_Dry, Road Surface_Wet or Damp.
