@@ -69,18 +69,18 @@ https://data.gov.uk/dataset/6efe5505-941f-45bf-b576-4c1e09b579a1/road-traffic-ac
     
 * Re-sampling our unbalanced data
   *  Slight: 6739, Serious: 957, Fatal: 48
-    *  Undersampling from slight to serious
+     Undersampling from slight to serious
   *  Slight: 957, Serious: 957, Fatal: 48
-    *  Oversampling from fatal to serious
+     Oversampling from fatal to serious
   *  Slight: 957, Serious: 957, Fatal: 957
   
 **_II. Standardization and PCA_**:
 
  * Standardization
- 
- ![pca](https://user-images.githubusercontent.com/43052624/48190945-ef00ed80-e37e-11e8-9d02-4dfffc4967c1.png)
- 
+  
  * PCA
+
+ ![pca](https://user-images.githubusercontent.com/43052624/48190945-ef00ed80-e37e-11e8-9d02-4dfffc4967c1.png)
 
 We use the first 12 components because they make up approximately 90% of the variance.
 
