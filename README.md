@@ -48,7 +48,7 @@ https://data.gov.uk/dataset/6efe5505-941f-45bf-b576-4c1e09b579a1/road-traffic-ac
 
 **METHODOLOGY**: 
 
-**_Data preprocessing_**:
+**_I. Data preprocessing_**:
 
 *  Merging data sets
 
@@ -70,11 +70,11 @@ https://data.gov.uk/dataset/6efe5505-941f-45bf-b576-4c1e09b579a1/road-traffic-ac
   *  Slight: 957, Serious: 957, Fatal: 48
   *  Slight: 957, Fatal: 957, Serious: 957
   
-**_Prediction_**:
+**_II. Prediction_**:
 
 Accuracy of each of the following methods were checked to choose the best classifier for reaching our goal. To implement methods mentioned below scikit-learn were used.
 
-*  Decision tree
+*  **Decision tree**
 
 ![kfold decision tree](https://user-images.githubusercontent.com/43052624/48170888-87be4b80-e334-11e8-8302-7c8437f7903f.png)
 
@@ -84,17 +84,17 @@ Kfold best mean accuracy of 73.95% for a decision tree depth equal to 6.
 
 The 3 most important features in decision tree model are: Casualty Class_Pedestrian, Road Surface_Dry, Road Surface_Wet or Damp.
 
-*  Neural network
+*  **Neural network**
 
 The mean accuracy is equal to 72.41% (standard deviation 2.46%.
 
-*  KNN 
+*  **KNN** 
 
 ![kfold knn](https://user-images.githubusercontent.com/43052624/48171438-dcfb5c80-e336-11e8-82e7-7f259129e643.png)
 
 Kfold best mean accuracy of 71.37% (standard deviation 2.77%) for n_neighbors=5.
 
-*  Ordered Logistic Regression
+*  **Ordered Logistic Regression**
 
 _With PCA_
 
