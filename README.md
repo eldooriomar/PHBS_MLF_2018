@@ -129,7 +129,7 @@ _using PCA_
 
 The mean accuracy is equal to 53.12% (standard deviation 2.32%)
 
-_Without PCA_
+_without PCA_
 
 Dropping reference variables.
 
