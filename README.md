@@ -25,7 +25,7 @@ The data that we will be analyzing has been composed of the U.K. road accidents 
 
 Accidents are recorded according to these features:
 *  Reference Number,
-*  Grid Ref:Easting,
+*  Grid Ref: Easting,
 *  Grid Ref: Northing,
 *  Expr1,
 *  Severity, 
@@ -70,11 +70,11 @@ https://data.gov.uk/dataset/6efe5505-941f-45bf-b576-4c1e09b579a1/road-traffic-ac
 * Re-sampling our unbalanced data
   *  Slight: 6739, Serious: 957, Fatal: 48
   *  Slight: 957, Serious: 957, Fatal: 48
-  *  Slight: 957, Fatal: 957, Serious: 957
+  *  Slight: 957, Serious: 957, Fatal: 957
   
 **_II. Prediction_**:
 
-Accuracy of each of the following methods were checked to choose the best classifier for reaching our goal. To implement methods mentioned below scikit-learn was used.
+Accuracy of each of the following methods were checked to choose the best classifier for reaching our goal. To implement methods mentioned below, scikit-learn was used.
 
 *  **Decision tree**
 
