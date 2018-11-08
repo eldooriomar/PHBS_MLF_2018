@@ -108,4 +108,5 @@ Analysis of the impact of statistically important independent variables:
 ![summary](https://user-images.githubusercontent.com/43052624/48114312-8724a700-e299-11e8-86e6-2bc53ce08bbf.png)
 
 The best model is the decision tree with a mean accuracy of 73.95%. 
+
 We can conclude that the 3 most important features that affect the severity of an automotive accident are: Casualty Class_Pedestrian, Road Surface_Dry, Road Surface_Wet or Damp.
