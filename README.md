@@ -84,13 +84,13 @@ K-fold best mean accuracy is 73.95% for a decision tree depth equal to 6.
 
 ![decision tree](https://user-images.githubusercontent.com/43052624/48113500-116b0c00-e296-11e8-8a0f-52ce61ae41cc.png)
 
-The 3 most important features in decision tree model are: Casualty Class_Pedestrian, Road Surface_Dry, Road Surface_Wet or Damp.
+The three most important features in the decision tree model are: Casualty Class_Pedestrian, Road Surface_Dry, Road Surface_Wet or Damp.
 
-*  **Neural network**
+*  **Neural Network**
 
 The mean accuracy is equal to 72.41% (standard deviation 2.46%).
 
-*  **KNN** 
+*  **KNN**
 
 ![kfold knn](https://user-images.githubusercontent.com/43052624/48171438-dcfb5c80-e336-11e8-82e7-7f259129e643.png)
 
@@ -114,4 +114,4 @@ The mean accuracy is equal to 53.54% (standard deviation 2.67%)
 
 The best model is the decision tree with a mean accuracy of 73.95%. 
 
-We can conclude that the 3 most important features that affect the severity of an automotive accident are: Casualty Class_Pedestrian, Road Surface_Dry, Road Surface_Wet or Damp.
+We can conclude that the three most important features that affect the severity of an automotive accident are: Casualty Class_Pedestrian, Road Surface_Dry, Road Surface_Wet or Damp.
