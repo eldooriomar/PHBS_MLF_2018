@@ -99,7 +99,7 @@ Our graph shows the depth that returns the best accuracy based on the number of 
 
 ![kfold decision tree](https://user-images.githubusercontent.com/43052624/48170888-87be4b80-e334-11e8-8302-7c8437f7903f.png)
 
-K-fold best mean accuracy is 73.95% for a decision tree depth equal to six.
+K-fold best mean accuracy is 73.95% (standard deviation 2.64%) for a decision tree depth equal to six.
 
 ![decision tree](https://user-images.githubusercontent.com/43052624/48113500-116b0c00-e296-11e8-8a0f-52ce61ae41cc.png)
 
@@ -121,7 +121,7 @@ Our graph shows the number of neighbors that returns the best accuracy based on 
 
 ![kfold knn](https://user-images.githubusercontent.com/43052624/48171438-dcfb5c80-e336-11e8-82e7-7f259129e643.png)
 
-K-fold best mean accuracy is 71.37% (standard deviation 2.77%) for n_neighbors equal to five.
+K-fold best mean accuracy is 71.37% (standard deviation 2.77%) for number of neighbors equal to five.
 
 *  **Ordered Logistic Regression**
 
@@ -131,13 +131,11 @@ The mean accuracy is equal to 53.12% (standard deviation 2.32%)
 
 _Without PCA_
 
-Drop reference variable
+Dropping reference variables.
 
-Plotting correlation matrix
+Dropping 'Weather Condition' variable due to its high correlation with 'Road Surface'.
 
-Drop 'Weather Condition' due to its high correlation with 'Road Surface'
-
-The mean accuracy is equal to 54.09% (standard deviation 2.67%)
+The mean accuracy is equal to 54.09% (standard deviation 2.67%).
 
 ![logistic regression](https://user-images.githubusercontent.com/43052624/48114206-1ed5c580-e299-11e8-80b8-1e1cc922a2a0.png)
 
