@@ -54,7 +54,7 @@ https://data.gov.uk/dataset/6efe5505-941f-45bf-b576-4c1e09b579a1/road-traffic-ac
 
 ![data preprocessing](https://user-images.githubusercontent.com/43052624/48182461-2b741f80-e366-11e8-8ceb-9b13cd1b1f66.png)
 
-*  Dropping columns containing references and correlated variables.
+*  Dropping columns containing references ( Reference number, Grid Ref: Easting, Grid Ref: Northing and correlated variables (Lighting conditions, Accident Date).
 
 *  Dealing with missing data by deleting observations that are labeled with NaNs.
 
