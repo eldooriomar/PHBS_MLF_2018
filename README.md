@@ -105,6 +105,10 @@ To avoid overfitting, we used K-fold cross-validation method with ten splits.
 
 - The three most important features in the decision tree model are: Casualty Class_Pedestrian, Road Surface_Dry, Road Surface_Wet or Damp.
 
+**Random Forest**
+
+- The mean accuracy is equal to 67.15% (standard deviation 3.98%). 
+
 **Neural Network**
 
 - Using preprocessed standarized data followed by PCA.
@@ -142,7 +146,7 @@ _without PCA_
 
 **CONCLUSION**: 
 
-![summary](https://user-images.githubusercontent.com/43052624/48207004-aceda100-e3aa-11e8-9c30-415f89d0319a.png)
+![sans titre](https://user-images.githubusercontent.com/43052624/48349868-71abe480-e6c0-11e8-8f7b-f9a67c918797.png)
 
 The best model is the decision tree with a mean accuracy of 73.95%. 
 
