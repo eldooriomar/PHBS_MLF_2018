@@ -50,7 +50,7 @@ https://data.gov.uk/dataset/6efe5505-941f-45bf-b576-4c1e09b579a1/road-traffic-ac
 
 **_I. Data preprocessing_**:
 
-![data preprocessing](https://user-images.githubusercontent.com/43052624/48182461-2b741f80-e366-11e8-8ceb-9b13cd1b1f66.png)
+![data preprocessing](https://user-images.githubusercontent.com/43052624/48352313-66a88280-e6c7-11e8-9ca1-a89f5b5dca29.png)
 
 *  Merging datasets
 
